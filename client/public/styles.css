@@ -32,6 +32,8 @@ body {
   line-height: 1.5;
   font-weight: 500;
   border-radius: 2px;
+  border-width: 2px;
+  border-color: transparent;
   color: #2d333f;
   display: inline-block;
   background-color: #fff;
@@ -40,10 +42,11 @@ body {
 }
 .save-restaurant-btn:hover {
   border-color: #DA3743;
-  border-width: 2px;
   cursor: pointer;
   outline: none;
-
+}
+.save-restaurant-btn:focus {
+  border-color: #DA3743;
 }
 .save-restaurant-text-container {
   font-size: 13px;
